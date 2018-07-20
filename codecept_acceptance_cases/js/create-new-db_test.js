@@ -9,19 +9,9 @@ Email: newuser11@outlook.com
 Password: Test@123
 Database Name: CustomDB-1
 
-CONFIGURATION OF WEBDRIVERIO in codecept.json
+CONFIGURATION OF WEBDRIVERIO
 
-"WebDriverIO": {
-      "url": "http://localhost",
-      "smartWait": 5000,
-       "browser": "chrome",
-       "restart": false,
-       "windowSize": "maximize",
-       "timeouts": {
-         "script": 60000,
-         "page load": 10000
-		 }
-    }
+*** Refer the file: codecept.json ***
 
 
 */
