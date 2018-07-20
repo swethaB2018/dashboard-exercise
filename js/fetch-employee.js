@@ -1,7 +1,7 @@
 /*
 
 This script connects to MongoDB and fetches the details of a given employee. 
-This can be enhanced to be used as Login script for Auth0 to connect to external DB and authenticate an employee/user
+This can be enhanced to be used as Login script for Auth0 to connect to external DB and authenticate an employee/user.
 
 Details of the Mongo DB:
 Name of the DB	: mydb
