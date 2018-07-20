@@ -22,7 +22,7 @@ MongoClient.connect(url, function(err, db) {
   //new employee details
   var myobj = { name:'Emp3', empno:'10003', password:'abc123XYZ_3'};
   
-  //Insert the data into DB
+  //Insert the data into DB.
   dbo.collection("MyEmployees").insertOne(myobj, function(err, res) {
     if (err) throw err;
     console.log("1 document inserted");
